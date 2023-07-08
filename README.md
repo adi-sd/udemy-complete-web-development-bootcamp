@@ -6,10 +6,13 @@
 >    Connected Computers all over the world \
 >    ( DNS : Domain Name System Server ) - basically an address/phonebook book
 
-> 2. How does websites works? \
+> 2. How does websites works?
 >     1. HTML : The Content
 >     2. CSS : The Style, Colors appears
 >     3. Java Script : The Functionality
+
+> 3. What are Webpages? \
+>    A web page is a hypertext document on the World Wide Web. Web pages are delivered by a web server to the user and displayed in a web browser. A website consists of many web pages linked together under a common domain name.
 
 ## 2. Introduction to HTML
 
@@ -39,3 +42,42 @@
 -   Html Image Element
     -   \<img src=\"image path" alt=\"alternative picture discription"/>
     -   Don't have closing tag
+
+## 4. Multipage Websites
+
+-   File Paths :
+
+    > -   Absolute File Path : Relative to the Root of the Computer System
+
+            Ex - /Users/adi.s.d/Downloads/3.4 Birthday Invite Project
+
+    > -   Relative File Path : Relative to Current dirctory usually
+
+            Ex - intermediate-html/anchor-tag.html
+
+-   Symbols :
+
+    > -   "../eassay.docx" - one directory up the current location
+    > -   "./eassay.docx" - inside the current directory
+
+-   Html Boilerplate
+
+    -   \<!DOCTYPE html> : tells browser about the html version
+    -   \<html lang=\"en"> : The main html tag, Language declaration for assistive devices
+    -   \<head> tag : Header information of your webpage
+        -   \<meta charset=\"UTF-8"> : tells browser about character encoding of the webpage
+        -   \<title>Title of your website\</title> : Dispalyed on Chrome tab
+    -   \<body> tag : All the conent of the webpage
+
+-   Ex -
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+            <body>
+            </body>
+        </html>
