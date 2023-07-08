@@ -57,8 +57,10 @@
 
 -   Symbols :
 
-    > -   "../eassay.docx" - one directory up the current location
-    > -   "./eassay.docx" - inside the current directory
+    >
+
+         -   "../eassay.docx" - one directory up the current location
+         -   "./eassay.docx" - inside the current directory
 
 -   Html Boilerplate
 
@@ -81,3 +83,49 @@
             <body>
             </body>
         </html>
+
+## 5. Introduction to CSS
+
+-   CSS : Cascading Style Sheet
+-   SASS : Syntactically awesome stylrsheet
+-   LESS : Leaner CSS
+-   How to add CSS?
+
+    >
+
+        1.  Inline : Targetting a single HTML element
+            Ex - <tag style="css">
+        2.  Internal : Targeting a single HTML page
+            Ex - <style>CSS</style>
+        3.  External : Targetting multipage website, a separate file for CSS
+            Ex - <link href="style.css">
+
+-   CSS Syntax -
+
+    >
+
+        <tag-selector> {
+            <css-property> : <css-property-value>
+        }
+
+-   CSS Slectors
+
+    -   A part that selects the html elements to apply the rules to
+
+    -   Types :
+        >
+             1. Element Selector -
+                 <name-of-the-tag> { CSS Code }
+             2. Class Selector -
+                 .<name-of-the-class> { CSS Code }
+                 ( Class name is an atrribute added to html tag for grouping similar styled elements )
+             3. Id Selector -
+                 #<elemet-id> { CSS Code }
+                 ( Id is an attribute for a html tag to identify it as unique )
+             4. Attribute Selector -
+                 <tag-name>[<attribute-name>="<attribute-value>"]{CSS Code}
+                 ( Select a tag with specific attribute or specific attribute value pair )
+             5. Universal Selector -
+                 * {CSS Code}
+                 (Select everything)
+
