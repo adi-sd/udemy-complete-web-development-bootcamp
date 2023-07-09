@@ -129,3 +129,32 @@
                  * {CSS Code}
                  (Select everything)
 
+## 6. CSS Properties
+
+-   Color Properties
+
+    -   background-color
+    -   color (text color)
+    -   named colors
+    -   hex Codes rgb()
+    - colorhunt.com
+
+-   Font Properties
+    -   Font Size : 
+        -   1px = 1/96th inch = 0.26mm
+        -   1pt = 1/72nd inch = 0.35mm
+        -   1em = 100% of parent (Relative Size)
+        -   1rem = 100% of root (Relative Size)
+        - named sizes = large, xx-large, small, etc.
+    - Font Weight :
+        - normal, bold
+        - lighter, bolder : relative to parent
+        - number : 100 - 900 range
+    - Font Family : <font-name>, <back-up-type-face>
+        - sans serif : no feet, right angle edges
+        - serif : letters with feet
+        - Helvetica, sans-serif
+        - "Times New Roman", serif
+        - fonts.google.com
+    - Text Align :
+        - start, end, center, justify
