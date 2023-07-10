@@ -42,6 +42,9 @@
 -   Html Image Element
     -   \<img src=\"image path" alt=\"alternative picture discription"/>
     -   Don't have closing tag
+-   Html Div Element
+    -   \<div></div> completely invisible
+    -   whole puspose is to act as a container for applying CSS
 
 ## 4. Multipage Websites
 
@@ -137,24 +140,45 @@
     -   color (text color)
     -   named colors
     -   hex Codes rgb()
-    - colorhunt.com
+    -   colorhunt.com
 
 -   Font Properties
-    -   Font Size : 
+
+    -   Font Size :
         -   1px = 1/96th inch = 0.26mm
         -   1pt = 1/72nd inch = 0.35mm
         -   1em = 100% of parent (Relative Size)
         -   1rem = 100% of root (Relative Size)
-        - named sizes = large, xx-large, small, etc.
-    - Font Weight :
-        - normal, bold
-        - lighter, bolder : relative to parent
-        - number : 100 - 900 range
-    - Font Family : <font-name>, <back-up-type-face>
-        - sans serif : no feet, right angle edges
-        - serif : letters with feet
-        - Helvetica, sans-serif
-        - "Times New Roman", serif
-        - fonts.google.com
-    - Text Align :
-        - start, end, center, justify
+        -   named sizes = large, xx-large, small, etc.
+    -   Font Weight :
+        -   normal, bold
+        -   lighter, bolder : relative to parent
+        -   number : 100 - 900 range
+    -   Font Family : <font-name>, <back-up-type-face>
+        -   sans serif : no feet, right angle edges
+        -   serif : letters with feet
+        -   Helvetica, sans-serif
+        -   "Times New Roman", serif
+        -   fonts.google.com
+    -   Text Align :
+        -   start, end, center, justify
+
+-   CSS Box Model
+
+    -   Element Size
+        -   height: \<size-in-pixel or percentage>
+        -   weidth: \<size-in-pixel or percentage>
+    -   Margin
+        -   distance between the end of the border and other elements
+    -   Padding
+        -   distance between content of the element and its border
+    -   Border
+
+        -   border: \<thickness> \<style> \<color>
+        -   if the thickness is changed the border will grow outwards
+        -   border-width: \<top> \<right> \<bottom> \<left> OR <top+bottom> <left+right>
+        -   OR separately like - border-top : \<size>
+
+    -   ( All values work like border )
+
+        ![CSS Box Model](image.png)
