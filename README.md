@@ -52,18 +52,18 @@
 
     > -   Absolute File Path : Relative to the Root of the Computer System
 
-            Ex - /Users/adi.s.d/Downloads/3.4 Birthday Invite Project
+              Ex - /Users/adi.s.d/Downloads/3.4 Birthday Invite Project
 
     > -   Relative File Path : Relative to Current dirctory usually
 
-            Ex - intermediate-html/anchor-tag.html
+              Ex - intermediate-html/anchor-tag.html
 
 -   Symbols :
 
     >
 
-         -   "../eassay.docx" - one directory up the current location
-         -   "./eassay.docx" - inside the current directory
+           -   "../eassay.docx" - one directory up the current location
+           -   "./eassay.docx" - inside the current directory
 
 -   Html Boilerplate
 
@@ -76,16 +76,16 @@
 
 -   Ex -
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-        </head>
-            <body>
-            </body>
-        </html>
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Document</title>
+          </head>
+              <body>
+              </body>
+          </html>
 
 ## 5. Introduction to CSS
 
@@ -96,41 +96,33 @@
 
     >
 
-        1.  Inline : Targetting a single HTML element
-            Ex - <tag style="css">
-        2.  Internal : Targeting a single HTML page
-            Ex - <style>CSS</style>
-        3.  External : Targetting multipage website, a separate file for CSS
-            Ex - <link href="style.css">
+          1.  Inline : Targetting a single HTML element
+              Ex - <tag style="css">
+          2.  Internal : Targeting a single HTML page
+              Ex - <style>CSS</style>
+          3.  External : Targetting multipage website, a separate file for CSS
+              Ex - <link href="style.css">
 
 -   CSS Syntax -
 
     >
 
-        <tag-selector> {
-            <css-property> : <css-property-value>
-        }
+          <tag-selector> {
+              <css-property> : <css-property-value>
+          }
 
 -   CSS Slectors
 
     -   A part that selects the html elements to apply the rules to
 
-    -   Types :
-        >
-             1. Element Selector -
-                 <name-of-the-tag> { CSS Code }
-             2. Class Selector -
-                 .<name-of-the-class> { CSS Code }
-                 ( Class name is an atrribute added to html tag for grouping similar styled elements )
-             3. Id Selector -
-                 #<elemet-id> { CSS Code }
-                 ( Id is an attribute for a html tag to identify it as unique )
-             4. Attribute Selector -
-                 <tag-name>[<attribute-name>="<attribute-value>"]{CSS Code}
-                 ( Select a tag with specific attribute or specific attribute value pair )
-             5. Universal Selector -
-                 * {CSS Code}
-                 (Select everything)
+    -   Types : > 1. Element Selector -
+        <name-of-the-tag> { CSS Code } 2. Class Selector -
+        .<name-of-the-class> { CSS Code }
+        ( Class name is an atrribute added to html tag for grouping similar styled elements ) 3. Id Selector - #<elemet-id> { CSS Code }
+        ( Id is an attribute for a html tag to identify it as unique ) 4. Attribute Selector -
+        <tag-name>[<attribute-name>="<attribute-value>"]{CSS Code}
+        ( Select a tag with specific attribute or specific attribute value pair ) 5. Universal Selector - \* {CSS Code}
+        (Select everything)
 
 ## 6. CSS Properties
 
@@ -154,7 +146,7 @@
         -   normal, bold
         -   lighter, bolder : relative to parent
         -   number : 100 - 900 range
-    -   Font Family : <font-name>, <back-up-type-face>
+    -   Font Family : \<font-name>, \<back-up-type-face>
         -   sans serif : no feet, right angle edges
         -   serif : letters with feet
         -   Helvetica, sans-serif
@@ -182,3 +174,17 @@
     -   ( All values work like border )
 
         ![CSS Box Model](image.png)
+
+## 7. Intermediate CSS
+
+-   CSS Cascade
+
+    -   if you have multiple CSS rules targetting same HTML element but they have an order of importance so the most important style gets displayed
+    -   4 categories to determine overall importance of CSS rule
+
+    1. Position : importance from top to bottom in external and internal css
+    2. Specificity : how specific a selector is; element slector < class selector < attribute < id
+    3. Type : inline style > internal style > external stylesheet
+    4. Importance : ! important keyword - \<css-property> : \<css-value> !important;
+
+    Important keyword > Type > Specificty > Position
