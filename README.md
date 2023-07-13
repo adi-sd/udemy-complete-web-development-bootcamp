@@ -188,3 +188,28 @@
     4. Importance : ! important keyword - \<css-property> : \<css-value> !important;
 
     Important keyword > Type > Specificty > Position
+
+-   Combining CSS
+
+    -   Ways to Combine CSS Slector
+        -   Group Rule : \<selctor-1> , \<selector-2> { CSS Rule } \
+            (Both groups are selected)
+        -   Child Rule : \<parent-selctor> \> \<child-selector> { CSS Rule } \
+            (Only 1st level of children are selected)
+        -   Descendant Rule : \<selctor-1> \<selector-2> { CSS Rule } \
+            (Descendant of the left side is selected)
+            (Works with 2nd, 3rd level children as well)
+        -   Chanining Rule : \<selctor-1>\<selector-2> { CSS Rule } \
+            (Apply where all selectors are true)
+            (Alwaya start with elemet selectors for chaining)
+    -   Combining Combiners : All above can be combined together as well
+
+-   CSS Positioning
+
+    -   Values of CSS Property Position :
+        1.  static (default) position - is fixed left, right, top bottom properties doesn't work
+        2.  relative position - relative to the default (static) position; left, right, top and bottom properties are enabled
+        3.  absolute position - relative to nearest positioned ancestor or top left corener of the webpage if the element doen't have a positnied ancestor; left, right, top and bottom properties are enabled; ancestor should br relative \
+            ( Z - index : which element goes on top of which; higher the index, the most on top the element is!)
+        4.  fixed positioning - relative to top left of the browser window; if you scroll it will stay in the same page and alway will be visible
+    -   Positioning is separate from margin
