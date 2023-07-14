@@ -213,3 +213,57 @@
             ( Z - index : which element goes on top of which; higher the index, the most on top the element is!)
         4.  fixed positioning - relative to top left of the browser window; if you scroll it will stay in the same page and alway will be visible
     -   Positioning is separate from margin
+
+## 8. Advanced CSS
+
+-   CSS Display Property
+
+    -   \<span></span> tag : it has different value for display (inline)
+    -   by default all other elemets have display: block
+    -   Values
+        1. block:
+            - takes up entire full width of the page
+            - elements goes on next line by default
+        2. inline:
+            - take up part of the line so we can fit the next element on the same line until we have space
+            - We cannot set width and height of the element
+        3. inline-block:
+            - same spacing as inline but have the height an width properties
+        4. none:
+            - hides the element on the page, its there but its not rendered
+    -   This is used to set up the layout of the web page
+
+-   CSS Float
+
+    -   This allows us to wrap text around another text
+    -   elements with this property are taken out of the html float
+    -   Values
+        1. left
+        2. right
+    -   Having float set to an element will make all the other elements wrap around it;to escap the wrapping around we need to set "clear" property of the required element same as float (left, right or both)
+
+-   How to Create a responsive website?
+    -   Our website should change and look beautiful on different screen sizes
+    -   Ways to do this -
+        1. Media Query
+            - Something to use as a wrpper for the CSS selector
+                ```
+                @media (max-width: 600px) {
+                    CSS-Code
+                }
+                ```
+            - This actually applies the wrapped CSS when the screen/window width is less than or equal to 600px
+        2. CSS Grid
+            - Really flexible for creating the web page layout
+            - You have a parent div which has diaplay: grid, then we can use grid properties.
+            - They have properties for defing the rows and columns, cell sizes and even the gap between then as well
+            - It applies to 2D layout; rows and columns
+        3. CSS Flexbox
+            - You have a parent div which has diaplay: flex, then we can use flexbox properties for elemets inside that container.
+            - flex: 1 divide the width in equal parts for each element
+            - It is a 1D layout systems wher we can control how to display elements in horizontal or vertical manner
+        4. Bootstrap Framework
+            - it is external not included into CSS
+            - they have predefined CSS classes that can be assigned to our desired html elements
+            - Bootstrap is build on top of CSS flexbox - they have 12 box system which divies the row in 12 equal boxes, we can resize the elements to occupy more than one of those boxes
+    -   No such things as a best one people uses combinations of these
