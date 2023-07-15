@@ -267,3 +267,11 @@
             - they have predefined CSS classes that can be assigned to our desired html elements
             - Bootstrap is build on top of CSS flexbox - they have 12 box system which divies the row in 12 equal boxes, we can resize the elements to occupy more than one of those boxes
     -   No such things as a best one people uses combinations of these
+
+-   Media Queries
+    - Query Keywords
+        1. max-width : less than or equal to
+        2. min-width : greater than or equal to
+        3. screen / print : used in screen mode or if someone is printing the web page cusing Cntrl + p
+    - The queries can be combined with "and" 
+    - Documentation - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
