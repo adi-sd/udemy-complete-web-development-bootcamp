@@ -243,6 +243,7 @@
     -   Having float set to an element will make all the other elements wrap around it;to escap the wrapping around we need to set "clear" property of the required element same as float (left, right or both)
 
 -   How to Create a responsive website?
+
     -   Our website should change and look beautiful on different screen sizes
     -   Ways to do this -
         1. Media Query
@@ -269,9 +270,72 @@
     -   No such things as a best one people uses combinations of these
 
 -   Media Queries
-    - Query Keywords
+    -   Query Keywords
         1. max-width : less than or equal to
         2. min-width : greater than or equal to
         3. screen / print : used in screen mode or if someone is printing the web page cusing Cntrl + p
-    - The queries can be combined with "and" 
-    - Documentation - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+    -   The queries can be combined with "and"
+    -   Documentation - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+## 9. CSS Flexbox
+
+-   Old HTMl will use tables for the page layout (Now it only should be used to representewd actaul table element)
+-   more alternative for layouts - tables > display: inline-block and setting width andd height > display: float; setting width and gaps
+
+-   How to use flexbox?
+
+    -   display: flex needs to be applies to the container
+    -   after theis we have to use different rules other than display: inline, inline-block or block
+    -   when the conainer has the value display flex all the content element will have the display value felx as well and width is adjusted to the inner content of the elements
+    -   display: inline-flex allows the main flex coniner to have flexbox property and it to be an inline element with respect to other elements on the web page
+
+-   Flex properties :
+
+    -   gap : (flex-container property)
+        -   size of the gap between the conetaining elements
+    -   flex-direction : (flex-container property)
+        -   default value : row = items get stalked one after the other on the main axis (the x-axis) instead of the cross axis (the y-axis)
+        -   column = items will get stacked from top to bottom; this changes the main axis to be the y-axis and cross axis to be the x-axis
+        -   the elements always flexes along the main axis
+    -   flex-basis : size value - (flex-item property)
+        -   if flex-direction: row = it changes the width of the containing elements
+        -   if flex-direction: column = it changes the height of the containing elements
+    -   we need to differentiate where the flex properties goes - either flex item (children) or the flex container (parent)
+
+-   Creating Flex layout :
+
+    -   order : numbered value - (flex-item property)
+        -   used to arrange the flex items in a specific order
+        -   "0" is the default value, greater the value it will be added at last of the row/colum
+    -   flex-wrap : (flex-container property)
+        -   when you run out of the space on horizontal
+        -   "nowrap" is the dfault value - it doesn;t let the element go on the next line instead it goes off the page horizontally
+        -   "wrap" : it will make the elements go to next line if they don't have enough space on tha page
+    -   flex-flow : (flex-container property)
+        -   This is a shorthand for the flex-direction and flex-wrap properties, which together define the flex container’s main and cross axes. The default value is row nowrap.
+    -   justify-content: (flex-container property)
+        -   set distribution of the content items along the main axis
+        -   possible values :
+            -   flex-start (default) = buched up at the start (left/top direction)
+            -   flex-end = bunched up at the end (right/bottom direction)
+            -   center, space-between, space-around, space-evenly
+    -   align-items: (flex-container property)
+        -   set distribution of the content items along the cross axis
+        -   possible values : flex-start, flex-end, center, baseline, stertch
+        -   it will only work when flex-wrap: nowrap;
+    -   align-content: (flex-container property)
+        -   set distribution of the content items along the cross axis
+        -   possible values : flex-start, flex-end, center, baseline, stertch
+        -   it will only work when flex-wrap: wrap;
+        -   it works on screens with smaller width to make the page responsive
+    -   align-self: (flex-item property)
+        -   set distribution of a specific content items along the cross axis
+        -   possible values : flex-start, flex-end, center, baseline, stertch
+
+-   Flexbox cheet sheet - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+--
+
+## Tips and Tricks :
+
+-   XXvh sizing : stands for "viewport height"; its percentage of the window height; responsive
