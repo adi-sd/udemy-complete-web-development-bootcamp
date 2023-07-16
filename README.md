@@ -332,9 +332,37 @@
         -   set distribution of a specific content items along the cross axis
         -   possible values : flex-start, flex-end, center, baseline, stertch
 
+-   Flexbox Sizing:
+
+    -   how to size the items in flexbox container
+    -   Flexbox sizing priority lis :
+        -   min-width/max-width property > flex-basis > width > content width
+    -   Default behaviour :
+        -   the items will shrinks to the minimum possible width even if it have to wrap the written content in it afetr it it wwill be pushed off the page not being visible at all.
+        -   max-width default : longest possible line from the text
+        -   min-width default : longest possible word from the text
+    -   max-widtth/min-width : (flex-item property)
+        -   max-width : growth potential of the item, while increasing the window size
+        -   min-width : shrink potential of the item, while decreasing the window size
+    -   flex-grow/flex-shrink: (flex-item property) posssible values - 0/1 (disable/enable)
+
+        -   used to enable or disable growth/shrinkage of the items due to screen resizing beyond the sizing settings from above properties
+        -   by default flex-grow = 0, and flex-shrink = 1; this allows items to shrink as per the width priority when screen size is reduced but the items will not grow even if the screen size is more than enough
+
+        | flex-grow | flex-shrink | flex-basis                                                                                                                     |
+        | --------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------ |
+        | 0         | 0           | initial starting value; items don't change in the size at all                                                                  |
+        | 1         | 0           | item will increase until the entire container is filled, while shrinking it will shrink till flex-basis size not after that    |
+        | 0         | 1           | initial starting value; while shrinking it will shrink till minimum width of the content beyond flex-basis size not after that |
+        | 1         | 1           | Completely ignored                                                                                                             |
+
+    -   shrthand = flex: \<grow> \<shrink> \<basis> OR <one-value-for-all>
+    -   flex-basis : auto = it will look at the content and give more width to the one with more content
+    -   flex-basis : 0 = all of the items will have same width
+
 -   Flexbox cheet sheet - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
---
+---
 
 ## Tips and Tricks :
 
