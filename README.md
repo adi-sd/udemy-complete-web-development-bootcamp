@@ -364,6 +364,30 @@
 
 ## 10. Display Grid
 
+-   For laying out content in 2D on the web page
+-   Creating a grid :
+    ```
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr /* 1:2 ratio for two columns*/
+            grid-template-rows: 1fr 1fr /* 1:1 ratio for two rows*/
+            gap: 10px
+        }
+    ```
+-   Grid Sizing :
+    -   Possible values for template-columns/template-rows
+        -   100px 200px = fixed size in pixels; not responsive
+        -   200px auto = auto will take 100% of teh screen if set in column, and fir the content in columns
+        -   1fr 2fr = fractional sizing; responsive
+        -   200px minmax(400px, 800px) = it will limit the size increase to min - 400px to max 800px
+        -   repeat(3, 200px) = repeat 200px row/column 3 times
+    -   combining template-row and template-columns
+        -   grid-template: 100px 200px / 400px 800px
+        -   grid-template: \<rows> / \<columns>
+    -   if we have lesser items than the spaces in our grid, the grid always will strt to fill items from top-left to right then on the next row from left again and remaining spaces will be empty
+    -   if we have lesser grid that our items, teh remaining items will use the column sizing from the grid but height will match its content
+    -   grid-auto-rows/grid-auto-column: this allows to style the extra items which did not fit the grid
+
 ---
 
 ## Tips and Tricks :
