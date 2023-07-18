@@ -425,6 +425,19 @@
         -   CDN (Content delivery network) \<link href=\"link-address" />
         -   Your custom style sheet should ALWAYS go below the CDN reference or your style will be overwritten by the bootstrap css
 
+-   Bootstrap Layout
+
+    -   12 Column layout: the window is devided into 12 equal responsive portions
+    -   container > row > column
+    -   container itself can have a size - container, container-sm, container-md, container-lg, container-xl, container-xxl, container-fluid (100% on all screen sizes)
+    -   column sizing:
+        -   col, col-2 to col-12: col-6 will be 50%, as total needs to be 12
+        -   similar sizing is available as the container class
+        -   col-sm-2 : screen size \>= 576px
+        -   if you don't specify size number on the col class they will occupi equal portions in the row
+        -   on screens smaller than 576px, mobile devices, all columns with or without sizes will take up the whole space and behaves like just "col"
+        -   you can also have multiple breakpoints on single div
+
 -   Different CSS Frameworks
     -   https://github.com/troxler/awesome-css-frameworks
 
