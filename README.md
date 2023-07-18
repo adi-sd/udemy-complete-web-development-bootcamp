@@ -410,6 +410,24 @@
         -   if you use on one itemn you should use it on all the items
     -   grid item order : same as flexbox, greater the value lesser the priority
 
+## 11. Bootstrap CSS
+
+-   Bootsrtap Framework
+
+    -   external CSS developed buy Twitter developers, we can just add classes to our html to stylize the css is already written
+    -   advantages :
+        -   quick and easy developement
+        -   really good browser compatibility
+    -   disadvantages :
+        -   class bloat, reduces html readability
+        -   no customizations (very hard to make changes to the components)
+    -   Ways to use it :
+        -   CDN (Content delivery network) \<link href=\"link-address" />
+        -   Your custom style sheet should ALWAYS go below the CDN reference or your style will be overwritten by the bootstrap css
+
+-   Different CSS Frameworks
+    -   https://github.com/troxler/awesome-css-frameworks
+
 ---
 
 ## Tips and Tricks :
