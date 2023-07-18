@@ -375,6 +375,7 @@
         }
     ```
 -   Grid Sizing :
+
     -   Possible values for template-columns/template-rows
         -   100px 200px = fixed size in pixels; not responsive
         -   200px auto = auto will take 100% of teh screen if set in column, and fir the content in columns
@@ -388,8 +389,31 @@
     -   if we have lesser grid that our items, teh remaining items will use the column sizing from the grid but height will match its content
     -   grid-auto-rows/grid-auto-column: this allows to style the extra items which did not fit the grid
 
+-   Grid Terminology:
+
+    -   grid containner
+    -   grid items
+    -   tracks
+        -   row tracks
+        -   column tracks
+    -   grid cell
+    -   grid lines
+
+-   Grid Placement:
+    -   By default the grid items are placed from top-left to top-right then the next row from left to right until the grid is fininshed
+    -   You can use flexbox with grid
+    -   grid-column/grid-row (gid item property):
+        -   grid-column-start/grid-row-start: \<line-number>
+        -   grid-column-end/grid-row-end: \<line-number>
+        -   OR span \<number-of-cells>
+    -   grid-area: \<row-start> / \<column-start> / \<row-end> / \<column-end>
+        -   if you use on one itemn you should use it on all the items
+    -   grid item order : same as flexbox, greater the value lesser the priority
+
 ---
 
 ## Tips and Tricks :
 
 -   XXvh sizing : stands for "viewport height"; its percentage of the window height; responsive
+-   div : by default div occupies the complete width of the window but the height is calculated only for the content unless specified
+-   Xrem size : not responsive;
