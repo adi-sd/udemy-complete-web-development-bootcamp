@@ -173,7 +173,7 @@
 
     -   ( All values work like border )
 
-        ![CSS Box Model](image.png)
+        ![CSS Box Model](./course-images/html-box-model.png)
 
 ## 7. Intermediate CSS
 
@@ -437,6 +437,23 @@
         -   if you don't specify size number on the col class they will occupi equal portions in the row
         -   on screens smaller than 576px, mobile devices, all columns with or without sizes will take up the whole space and behaves like just "col"
         -   you can also have multiple breakpoints on single div
+
+-   Bootstrap Components
+
+    -   Button : https://getbootstrap.com/docs/5.0/components/buttons/
+    -   Cards : https://getbootstrap.com/docs/5.0/components/card/
+    -   NavBar : https://getbootstrap.com/docs/5.0/components/navbar/
+    -   Examples : https://getbootstrap.com/docs/5.3/examples/
+
+-   Bootstrap Cpacing Notation
+
+    -   link : https://getbootstrap.com/docs/4.0/utilities/spacing/
+
+    ![Alt text](./course-images/bootstrap-spacing-notaions.png)
+
+-   Bootsrap Dark Mode
+
+    -   link : https://getbootstrap.com/docs/5.3/customize/color-modes/
 
 -   Different CSS Frameworks
     -   https://github.com/troxler/awesome-css-frameworks
