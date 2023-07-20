@@ -458,6 +458,73 @@
 -   Different CSS Frameworks
     -   https://github.com/troxler/awesome-css-frameworks
 
+## 13. Web Design 101
+
+-   Introduction to Web Design
+    -   Pillars of Good We design
+        1.  Color Theory
+        2.  User Interface Design
+        3.  Typography
+        4.  User Experience Design
+
+1.  Color Theory
+
+    -   Art and science to choose a color palette for your website
+    -   Colors and Mood :
+        -   Red : Love, Energy, Intensity
+        -   Yellow: Joy, Intellect, Attention
+        -   Green: Freshness, Growth, Health, Safety
+        -   Blue: Stability, Trust, Serenity
+        -   Purple: Royalty, Wealth, Feminity
+    -   Combining Colors
+        -   Analogous color palette
+        -   Complementory color palette (not for text and its background)
+    -   Adobe color Palette : https://color.adobe.com/create/color-wheel
+
+2.  Typography
+
+    -   Two main font families :
+
+        1.  Serif : font with feet (Inspired by marbal/stone carvings)
+            -   Mood : Serious, Authoritative, Older, Traditional, Stable, Respectable
+            -   Sub Families :
+                -   Old Style, MOdern, Transitional, Slab-Serif - How Old will it look?
+                -   Look at the difference between thickest and thinnest part of the letter
+        2.  Sans-Serif : no feet on the ltters; perfect right angeles
+            -   Mood: Friendly, Approachabvle, Sensible, Simple, Straightforward
+            -   Sub Families:
+                -   Grotesque, Neo-Grotesque, Humanist (Highly readble), Geometric
+
+    -   Legiblilty : Open Shapes, Space between the letters, different forms, Varing proportions
+    -   Don't Cluter by using many fornts, use two wiwth similar mood and time era
+    -   You can contrast Serifness also font weights
+
+3.  User Interface Design
+
+    -   Managing user's attention to define a hierarchy
+    -   Ways to define hierarchy:
+        -   Color
+        -   Size
+    -   Think About the layout
+        -   line lenght : 40-50 characters per line
+    -   content alignment : smaller readble blocks, with more information
+        -   reduce number of points of alignment to look more professional
+    -   White Space :
+        -   add some white space in
+    -   Audience :
+        -   indentify your audience and think abot the appeal
+
+4.  User Experience Design
+
+    -   UI is astetic, what we think looks good and enforcing it on your user
+    -   UX is invisible it makes user feel everything is effortless, easy and unintrusive
+    -   5 things to think about
+        1.  Simplicity : no clutter, consistancy with color and typography
+        2.  Consistancy : keep design and functionality cosistent
+        3.  Reading Pattern : most common is the "F" pattern, the "Z" pattern
+        4.  All Devices Website : design should be made for all screen sizes, it should be responsive
+        5.  Don't Use your powers for Evil (Dark Patterns) : make people perform an action that they really don't need
+
 ---
 
 ## Tips and Tricks :
@@ -465,3 +532,5 @@
 -   XXvh sizing : stands for "viewport height"; its percentage of the window height; responsive
 -   div : by default div occupies the complete width of the window but the height is calculated only for the content unless specified
 -   Xrem size : not responsive;
+-   Color Hunt : https://colorhunt.co/
+-   Canva : Online Graphics Editing : https://www.canva.com/en_in/
