@@ -525,6 +525,92 @@
         4.  All Devices Website : design should be made for all screen sizes, it should be responsive
         5.  Don't Use your powers for Evil (Dark Patterns) : make people perform an action that they really don't need
 
+## 14. Introduction to Javascript ES6
+
+-   Introduction :
+
+    -   Javascript : made by Brendan Eich (Netscape Navigator)
+    -   ECMA Script (Standardise JS) : European Computer Manufacturer's Associations
+    -   Why it is alled JavaScript? : tells HTML element what it should do!
+    -   JS is interpreted language vs Java is compiled
+    -   JS is supported by all the major browsers
+    -   JS Documentation : https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+-   Alerts :
+
+```
+    -   alert("<your-string>") : create a pop up on the browser
+    -   prompt("<your-question>") : get input from a popup
+```
+
+-   JS Data types :
+
+```
+    -   string : string of characters
+    -   numbers : 122344
+    -   boolean : true, false
+    -   null : nothing
+    -   typeof(<your-data>) : returns data-type of your-data
+```
+
+-   JS Variables :
+
+```
+    -   var <variable-name> = <value>;
+    -   Your variables names should be : meaningful, no direct JS keywords, cannot begin with numbers, cannot contain empty spaces, allowed characters: [letters, numbers, _ and $]
+```
+
+-   JS Strings :
+
+```
+    -   Concatination : <string1> "+" <string2>
+    -   <string>.length : gives number of characters in your string including empty spaces
+    -   <string>.slice(<start-index>,<end-index>) : it returns characters staring from "start-index" to "end-index" but not including character at the "end-index"
+    -   <string>.toUpperCase()
+    -   <string>.toLowerCase()
+    -   console.log(<your-string>) : print your-string on stdout
+```
+
+-   JS Arithematics :
+
+```
+    -   Add : a + b
+    -   Substract : a - b
+    -   Multiply : a * b
+    -   Devide : a / b
+    -   Modulo : a % b = remainder of a / b
+    -   PEMDAS rules apply
+    -   Increment/Decrement : a++/a--
+    -   Shorthand Arithemactic : +=. -=, *=, /=
+    -   Power : Math.pow(a, b) = a ^ b
+    -   Round : Math.round(a) = round floating point numbers
+```
+
+-   JS Functions :
+
+```
+    -   Define :
+        function <function-name>(<parameters>) {
+            <function-body>;
+            return <return-value>;
+        }
+    -   Call : <function-name>(<arguments>);
+    -   Define :
+        var <variable-name> = function (<parameters>) {
+            <function-body>;
+            return <return-value>;
+        };
+    -   Call : <variable-name>(<arguments>);
+```
+
+-   JS Code Conventions:
+    -   "\<your-string>" : for strings
+    -   Use camel casing for variable names, function names
+    -
+    -   "//" - Single line Comment in JS
+    -   "/\* \*/" - Multi line Comment in JS
+    -   Complete Guide : https://github.com/rwaldron/idiomatic.js/
+
 ---
 
 ## Tips and Tricks :
@@ -534,3 +620,5 @@
 -   Xrem size : not responsive;
 -   Color Hunt : https://colorhunt.co/
 -   Canva : Online Graphics Editing : https://www.canva.com/en_in/
+-   Chrome Snippets : In Browser JS Developement
+-   Hard Reload in Chrome : click and hold the reload button for mac
