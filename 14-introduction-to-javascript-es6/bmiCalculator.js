@@ -10,3 +10,5 @@ let bmi = function (weight, height) {
 alert("Your BMI is - " + bmi(weight, height));
 
 // Leap year Code
+
+// Sunday Commit
