@@ -18,3 +18,5 @@ alert("Your BMI is - " + bmi(weight, height));
 // Tuesday Commit
 
 // Thursday Commit
+
+// Friday Commit
