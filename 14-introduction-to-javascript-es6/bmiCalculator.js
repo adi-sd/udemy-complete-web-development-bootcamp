@@ -8,29 +8,3 @@ let bmi = function (weight, height) {
 };
 
 alert("Your BMI is - " + bmi(weight, height));
-
-// Leap year Code
-
-// Sunday Commit
-
-// Monday Commit
-
-// Tuesday Commit
-
-// Thursday Commit
-
-// Friday Commit
-
-// Saturday Commit
-
-// Sunday Commit
-
-// Monday Commit
-
-// Wednesday Commit
-
-// Thursday Commit
-
-// Friday Commit
-
-// Saturday Commit
