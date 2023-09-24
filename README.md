@@ -584,6 +584,24 @@
     -   Shorthand Arithemactic : +=. -=, *=, /=
     -   Power : Math.pow(a, b) = a ^ b
     -   Round : Math.round(a) = round floating point numbers
+    -   Floor : Math.floor(a) = get a lower nearest integer
+```
+
+-   JS More Operators :
+```
+    - comparison :
+    1. ===  : is equal in values and data types
+    2. !==  : is not equal in values and data types
+    3. >    : is greate than
+    4. <    : is less than
+    5. >=   : is greater than or equal to
+    6. <=   : is less than or equal to
+    7. ==   : is equal in value
+    8. !=   : is not equal in value
+    - logical :
+    1. &&   : AND   : logical and operator
+    2. ||   : OR    : logical or operator
+    3. !    : NOT   : negation operator
 ```
 
 -   JS Functions :
@@ -601,6 +619,24 @@
             return <return-value>;
         };
     -   Call : <variable-name>(<arguments>);
+    -   Define :
+        const <variable-name> = (<paramaters>) = {
+            <function-body>;
+            return <return-value>;
+        };
+    -   Call : <variable-name>(<arguments>)
+```
+
+-   JS Control Statements :
+
+```
+    -   Conditionals :
+        - if (condition) {
+            // true code
+        } else {
+            // false code
+        }
+        - 
 ```
 
 -   JS Code Conventions:
